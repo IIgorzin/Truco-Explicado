@@ -1,0 +1,58 @@
+body {
+    font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
+    background-color: #fef6e4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  header {
+    background-color: #f582ae;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px #0002;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .content {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .rule {
+    background-color: #fcd5ce;
+    border-left: 10px solid #f08080;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 3px 8px #0002;
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  .rule span.emoji {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  footer {
+    background-color: #f582ae;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .rule {
+      font-size: 1rem;
+    }
+  }
